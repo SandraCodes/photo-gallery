@@ -1,0 +1,18 @@
+.GalleryImages {
+    column-count: 1;
+    column-gap: 0;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+@media (min-width: 768px){
+    .GalleryImages {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 1024px){
+    .GalleryImages {
+        column-count: 3;
+    }
+}

@@ -1,0 +1,9 @@
+.GalleryImage {
+    break-inside: avoid;
+    padding: 5px;
+}
+
+.GalleryImage__content {
+    overflow: hidden;
+    width: 100%;
+}
